@@ -4,29 +4,42 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Images Search API Microservice</title>
+    <title>File Metadata Microservice</title>
     <style type="text/css">
         h2{
             text-align: center;
             color: red;
         }
         .container{
+            padding: 10px;
             margin: 0 auto;
-            width: 90%;
-            background: grey;
+            width: 60%;
+            background: #FAE5D3;
             height: 60vh;
         }
+        input{
+            margin: 15px auto;
+            width: 40%;
+        }
+        
     </style>
 </head>
 
 <body>
+    <div>
+        <h2>
+            File Metadata API-Microservice<br>
+            <code>FreeCodeCamp API-Project By Nnenanya O.K</code>
+        </h2>
     <div class="container">
         Hi, submit a file to view its size!
         <form method="post" action="/filesize" enctype="multipart/form-data">
-            Select a file: <input type="file" name="fileObj">
-            <input type="submit">
+            <input type="file" name="fileObj" size="40" ></br>
+            <input type="submit" value="Submit File">
         </form>
     </div>
+    </div>
+    
 </body>
 
 
