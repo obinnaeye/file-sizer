@@ -1,9 +1,9 @@
 var express = require("express");
 //multer is used to parsed form data with multipart type
 var multer  = require('multer');
-//var upload = multer();
+var upload = multer();
 //use this if you want the files to be saved in the folder "uploads"
-var upload = multer({ dest: 'uploads/' });
+//var upload = multer({ dest: 'uploads/' });
 var app = express();
 
 //var bodyParser = require('body-parser');
