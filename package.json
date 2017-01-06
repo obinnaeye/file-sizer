@@ -1,0 +1,25 @@
+{
+  "name": "file-sizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obinnaeye/file-sizer.git"
+  },
+  "author": "Nnenanya O.K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/obinnaeye/file-sizer/issues"
+  },
+  "homepage": "https://github.com/obinnaeye/file-sizer#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "multer": "^1.2.1",
+    "pug": "^2.0.0-beta6"
+  }
+}

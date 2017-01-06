@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Images Search API Microservice</title>
+    <style type="text/css">
+        h2{
+            text-align: center;
+            color: red;
+        }
+        .container{
+            margin: 0 auto;
+            width: 90%;
+            background: grey;
+            height: 60vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        Hi, submit a file to view its size!
+        <form method="post" action="/filesize" enctype="multipart/form-data">
+            Select a file: <input type="file" name="fileObj">
+            <input type="submit">
+        </form>
+    </div>
+</body>
+
+
+</html>
